@@ -1,0 +1,40 @@
+body {
+  padding: 0px;
+}
+section {
+  display: flex;
+  align-items: center;
+  height: calc(100vh - 70px);
+  /* background-color: violet; */
+}
+.video {
+  border: 3px solid #2692c4;
+  box-shadow: -7px 4px 16px #000;
+}
+.main-section {
+  display:flex;
+  background-image: url(https://www.torneseumprogramador.com.br/images/capa.png); 
+  background-color: #2692c4;
+  background-position: center;
+  /* background-attachment: fixed; */
+  background-size: cover;
+  color:white;
+  text-shadow: 3px 4px 5px #000;
+}
+
+.buttons {
+  background-color: #1f4e63;
+  border: none;
+  border-radius: 6px;
+}
+.header {
+  background-color: #0a2f40;
+  box-shadow: -7px 4px 16px #000;
+}
+.header a {
+  color:#cbeeff;
+}
+.logo {
+  width: 50px;
+  border-radius: 6px;
+}
